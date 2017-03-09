@@ -1,0 +1,10 @@
+.bundle/
+.DS_Store
+.vagrant/
+*.box
+*.ova
+*.ovf
+/packer-*/
+iso
+packer_cache
+packer.log
