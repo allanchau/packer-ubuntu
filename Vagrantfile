@@ -51,10 +51,4 @@ Vagrant.configure('2') do |config|
     v.gui = false
   end
 
-  config.vm.provider :vmware_desktop do |v, override|
-    v.gui = false
-    v.vmx["memsize"] = custom_config['memory']
-    v.vmx["numvcpus"] = custom_config['cpus']
-  end
-
 end
