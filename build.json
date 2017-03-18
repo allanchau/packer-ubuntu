@@ -5,22 +5,11 @@
       "headless": "{{ user `headless` }}",
       "output_directory": "packer-{{user `template`}}-virtualbox",
       "shutdown_command": "echo 'vagrant' | sudo -S shutdown -P now",
-      "source_path": "/path/to/virtualbox.ova",
+      "source_path": "builds/packer-ubuntu-development.ova",
       "ssh_password": "vagrant",
       "ssh_username": "vagrant",
       "type": "virtualbox-ovf",
       "virtualbox_version_file": ".vbox_version",
-      "vm_name": "{{ user `template` }}"
-    },
-    {
-      "headless": "{{ user `headless` }}",
-      "output_directory": "packer-{{user `template`}}-vmware",
-      "shutdown_command": "echo 'vagrant' | sudo -S shutdown -P now",
-      "source_path": "/path/to/vmware.ovf",
-      "ssh_password": "vagrant",
-      "ssh_username": "vagrant",
-      "tools_upload_flavor": "linux",
-      "type": "vmware-ovf",
       "vm_name": "{{ user `template` }}"
     }
   ],
@@ -56,6 +45,6 @@
     "disk_size": "20480",
     "headless": "true",
     "template": "ubuntu-16.04-amd64",
-    "version": "1.0.0"
+    "version": "2.0.0"
   }
 }
