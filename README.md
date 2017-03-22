@@ -1,8 +1,8 @@
-# Ubuntu Packer development templates
+# packer-ubuntu
 
-Ubuntu Vagrant box with docker, docker-compose, git, mongodb, and node preinstalled.
+Ubuntu Vagrant box with Docker, Docker Compose, Git, MongoDB, and Node.js preinstalled.
 
-A prebuilt box is available on Atlas: [allanchau/xenial64dev](https://atlas.hashicorp.com/allanchau/boxes/xenial64dev)
+A prebuilt box is available on Atlas: [allanchau/xenial64](https://atlas.hashicorp.com/allanchau/boxes/xenial64)
 
 ## Features
 
@@ -11,7 +11,7 @@ A prebuilt box is available on Atlas: [allanchau/xenial64dev](https://atlas.hash
 - Docker Compose
 - Git
 - MongoDB
-- Node
+- Node.js
 
 ## Requirements
 
@@ -24,9 +24,7 @@ Make sure all dependencies have been installed before moving on:
 
 ## Installation
 
-### Virtualbox
-
-1. From the root directory, `vagrant up --provider=virtualbox` to create a VM with the base box.
+1. From the root directory, `vagrant up` to create a VM with the base box.
 2. Using Virtualbox, export the ova file somewhere.
 3. Update `build.json` with the path to your exported ova file.
 4. Run `packer build build.json` to build the image.

@@ -1,7 +1,7 @@
 cpus: 1
 memory: 512
-box_path: 'allanchau/xenial64'
-hostname: ubuntudev
+box_path: 'allanchau/xenial64-base'
+hostname: ubuntu-basedev
 aliases:
-  - ubuntu.local
-  - dev.ubuntu.local
+  - ubuntu-base.local
+  - dev.ubuntu-base.local
