@@ -21,7 +21,7 @@ Vagrant.configure('2') do |config|
   config.vm.box = custom_config['box_path']
   config.vm.hostname = custom_config['hostname']
   config.vm.network 'private_network', type: 'dhcp'
-  config.vm.synced_folder '.', '/vagrant', type: 'nfs'
+  config.vm.synced_folder '.', '/vagrant'
 
   if Vagrant.has_plugin?('vagrant-hostmanager')
     config.hostmanager.aliases = %W(#{custom_config['aliases'].compact.join(' ')})
@@ -49,12 +49,6 @@ Vagrant.configure('2') do |config|
     v.customize ['modifyvm', :id, '--memory', custom_config['memory']]
     v.customize ['modifyvm', :id, '--natdnshostresolver1', 'on']
     v.gui = false
-  end
-
-  config.vm.provider :vmware_desktop do |v, override|
-    v.gui = false
-    v.vmx["memsize"] = custom_config['memory']
-    v.vmx["numvcpus"] = custom_config['cpus']
   end
 
 end
