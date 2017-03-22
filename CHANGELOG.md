@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.0.1 - 22 March 2017
+## v2.0.0 - 22 March 2017
 
 - Add docker to sudoers.
 - Align with the version on Atlas.
