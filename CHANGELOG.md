@@ -1,10 +1,11 @@
 # Changelog
 
-## v1.0.0 - 18 March 2017
+## v2.0.1 - 22 March 2017
 
-- Reduce mongo intalled packages.
 - Add docker to sudoers.
+- Align with the version on Atlas.
 - Docker now starts on boot.
+- Reduce mongo intalled packages.
 - Remove support for VMWare.
 
 ## v1.0.0 - 10 March 2017

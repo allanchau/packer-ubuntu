@@ -33,7 +33,6 @@
         "scripts/docker-compose.sh",
         "scripts/vagrant.sh",
         "scripts/virtualbox.sh",
-        "scripts/vmware.sh",
         "scripts/clean.sh",
         "scripts/minimize.sh"
       ],

@@ -21,7 +21,7 @@ Vagrant.configure('2') do |config|
   config.vm.box = custom_config['box_path']
   config.vm.hostname = custom_config['hostname']
   config.vm.network 'private_network', type: 'dhcp'
-  config.vm.synced_folder '.', '/vagrant', type: 'nfs'
+  config.vm.synced_folder '.', '/vagrant'
 
   if Vagrant.has_plugin?('vagrant-hostmanager')
     config.hostmanager.aliases = %W(#{custom_config['aliases'].compact.join(' ')})
