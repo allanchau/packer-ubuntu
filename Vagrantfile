@@ -51,4 +51,10 @@ Vagrant.configure('2') do |config|
     v.gui = false
   end
 
+  config.vm.provider :vmware_fusion do |v, override|
+    v.customize ['modifyvm', :id, '--cpus', custom_config['cpus']]
+    v.customize ['modifyvm', :id, '--memory', custom_config['memory']]
+    v.gui = false
+  end
+
 end
