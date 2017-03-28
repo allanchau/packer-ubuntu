@@ -1,6 +1,6 @@
 # Changelog
 
-## v3.0.0 - 28 March 2017
+## v2.1.0 - 28 March 2017
 
 - Add back support for VMWare.
 - Merge the base box into this repo.

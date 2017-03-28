@@ -1,6 +1,6 @@
 # packer-ubuntu
 
-Ubuntu Vagrant box with Docker, Docker Compose, Git, MongoDB, and Node.js preinstalled.
+Ubuntu Vagrant development box.
 
 A prebuilt box is available on Atlas: [allanchau/xenial64](https://atlas.hashicorp.com/allanchau/boxes/xenial64)
 
