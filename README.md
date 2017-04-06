@@ -7,13 +7,13 @@ A prebuilt box is available on Atlas: [allanchau/xenial64](https://atlas.hashico
 ## Features
 
 - Ubuntu 16.04.2 LTS (Xenial Xerus) Server
-- Docker
-- Docker Compose
-- Git
-- MongoDB Shell
-- MongoDB Tools
-- Node.js
-- Yarn
+- Docker 17.04.0-ce
+- Docker Compose 1.12.0
+- Git 2.7.4
+- MongoDB Shell 3.4.3
+- MongoDB Tools 3.4.3
+- Node.js 6.10.2
+- Yarn 0.23.0
 
 ## Requirements
 
