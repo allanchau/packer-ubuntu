@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.2.0 - 7 April 2017
+
+- Update Docker to v17.04.0-ce.
+
+## v2.1.1 - 6 April 2017
+
+- Update docker-compose to v1.12.0.
+
 ## v2.1.0 - 28 March 2017
 
 - Add back support for VMWare.
