@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.3.0 - 14 May 2017
+
+- Update Docker Compose to v1.13.0.
+- Update Yarn to v0.24.4.
+
 ## v2.2.0 - 7 April 2017
 
 - Update Docker to v17.04.0-ce.
