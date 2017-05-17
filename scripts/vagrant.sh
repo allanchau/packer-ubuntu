@@ -17,10 +17,7 @@ chown -R vagrant $HOME_DIR/.ssh;
 chmod -R go-rwsx $HOME_DIR/.ssh;
 
 # Add some aliases.
-echo 'alias h="history"
-alias rr="rm -rf"
-alias d="docker"
-alias dc="docker-compose"
+echo 'alias rr="rm -rf"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."

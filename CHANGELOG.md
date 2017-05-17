@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.3.0 - 17 May 2017
+
+- Update Docker Compose to v1.13.0.
+- Update Mongo tool to v3.4.4.
+- Update Node.js to v6.10.3.
+- Update Yarn to v0.24.5.
+
 ## v2.2.0 - 7 April 2017
 
 - Update Docker to v17.04.0-ce.
