@@ -2,18 +2,18 @@
 
 Ubuntu Vagrant development box.
 
-A prebuilt box is available on Atlas: [allanchau/xenial64](https://atlas.hashicorp.com/allanchau/boxes/xenial64)
+A prebuilt box is available on Atlas: [allanchau/xenial64](https://app.vagrantup.com/allanchau/boxes/xenial64)
 
 ## Features
 
-- Ubuntu 16.04.2 LTS (Xenial Xerus) Server
-- Docker 17.03.1-ce
-- Docker Compose 1.13.0
-- Git 2.7.4
-- MongoDB Shell 3.4.4
-- MongoDB Tools 3.4.4
-- Node.js 6.10.3
-- Yarn 0.24.5
+- Ubuntu 16.04 LTS (Xenial Xerus) Server
+- Docker
+- Docker Compose
+- Git
+- MongoDB Shell
+- MongoDB Tools
+- Node.js
+- Yarn
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Make sure all dependencies have been installed before moving on:
 ## Installation
 
 1. Run `packer build xenial64.json` to build the boxes.
-2. Upload the boxes in the `builds` folder to [Atlas](https://atlas.hashicorp.com).
+2. Upload the boxes in the `builds` folder to [Vagrant Cloud](https://app.vagrantup.com).
 
 ## Testing
 
