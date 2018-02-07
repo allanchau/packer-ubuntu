@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.4.0 - 7 Feb 2018
+
+- Update docker-compose to the latest version.
+- Update Mongo to the latest version.
+- Update Node to the latest version.
+
 ## v2.3.0 - 17 May 2017
 
 - Update Docker Compose to v1.13.0.
