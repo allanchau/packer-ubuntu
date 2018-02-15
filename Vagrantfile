@@ -55,8 +55,7 @@ Vagrant.configure('2') do |config|
     v.customize ['modifyvm', :id, '--cpus', custom_config['cpus']]
     v.customize ['modifyvm', :id, '--memory', custom_config['memory']]
     v.gui = false
-    v.vmx['ethernet0.pcislotnumber'] = '32'
-    v.vmx['ethernet1.pcislotnumber'] = '33'
+    v.whitelist_verified = true
   end
 
 end
