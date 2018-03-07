@@ -1,6 +1,10 @@
 # Changelog
 
-## 2.4.0 - 7 Feb 2018
+## 2.5.0 - 7 March 2018
+
+- Update Ubuntu to v16.04.4
+
+## 2.4.0 - 7 February 2018
 
 - Update docker-compose to the latest version.
 - Update Mongo to the latest version.
