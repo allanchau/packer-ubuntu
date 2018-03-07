@@ -1,6 +1,16 @@
 # Changelog
 
-## 2.4.0 - 7 Feb 2018
+## 2.5.0 - 7 March 2018
+
+- Update Ubuntu to v16.04.4
+- Update docker-compose to v1.19.0
+- Update Docker to v17.12.1-ce
+- Update Git to v2.16.2
+- Update Mongo to v3.6.3
+- Update Node.js to v8.10.0
+- Update Yarn to v1.5.1
+
+## 2.4.0 - 7 February 2018
 
 - Update docker-compose to the latest version.
 - Update Mongo to the latest version.
