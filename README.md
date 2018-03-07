@@ -29,7 +29,7 @@ Make sure all dependencies have been installed before moving on:
 ## Installation
 
 1. Run `packer build xenial64.json` to build the boxes.
-2. Upload the boxes in the `builds` folder to [Vagrant Cloud](https://app.vagrantup.com).
+2. Upload the boxes in the `builds` folder to [Vagrant Cloud](https://app.vagrantup.com/allanchau/boxes/xenial64).
 
 ## Testing
 
